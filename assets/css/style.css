@@ -241,10 +241,7 @@ input[type=submit] {
 /* responive settings */
 
 @media screen and (max-width: 980px){
-  body {
-    font-weight: bold;
-  }
-  /* general */
+/* general */
   section.sidebar{
     margin-right: 120px;
   }
@@ -270,10 +267,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px){
-  body {
-    font-weight: bold;
-  }
-  /* general */
+/* general */
   #logo {
     margin-left: 20px;
   }
@@ -301,16 +295,16 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px){
-  body {
-    font-weight: bold;
-  }
-  /* general */
+/* general */
   header#masthead {
     position: static;
     margin-bottom: 0;
   }
   div#main-container {
   padding-top: 20px;
+  }
+  a {
+    width: 150px;
   }
   a#logo {
     width: 100%;
