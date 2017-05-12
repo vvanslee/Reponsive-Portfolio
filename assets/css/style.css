@@ -1,7 +1,5 @@
 @media screen and (max-width: 980px){
-  
   /* general */
-
   section.sidebar{
     margin-right: 120px;
   }
@@ -11,26 +9,47 @@
   nav{
     margin-right: 120px;
   }
-
-  /* about */
-
-  section.main-section {
+    section.main-section {
     width: 415px;
     margin-left: 120px;
+  /* about */
   }
   img.auth-image {
     width: 355px;
     margin-bottom: 20px;
   }
-
   /* portfolio */
-
   div.work {
     width: 360px;
   }
 }
 
 @media screen and (max-width: 768px){
+  /* general */
+  #logo {
+    margin-left: 20px;
+  }
+  nav {
+    margin-right: 20px;
+  }
+  section.main-section {
+    width: 100%;
+    max-width: 728px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.sidebar {
+    width: 100%;
+    max-width: 728px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  /* portfolio */
+  div.work{
+    width: 313px;
+    margin-bottom: 10px;
+  }
 
 }
 
