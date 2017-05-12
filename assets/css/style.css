@@ -1,64 +1,3 @@
-@media screen and (max-width: 980px){
-  /* general */
-  section.sidebar{
-    margin-right: 120px;
-  }
-  #logo{
-    margin-left: 120px;
-  }
-  nav{
-    margin-right: 120px;
-  }
-    section.main-section {
-    width: 415px;
-    margin-left: 120px;
-  /* about */
-  }
-  img.auth-image {
-    width: 355px;
-    margin-bottom: 20px;
-  }
-  /* portfolio */
-  div.work {
-    width: 360px;
-  }
-}
-
-@media screen and (max-width: 768px){
-  /* general */
-  #logo {
-    margin-left: 20px;
-  }
-  nav {
-    margin-right: 20px;
-  }
-  section.main-section {
-    width: 100%;
-    max-width: 728px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  section.sidebar {
-    width: 100%;
-    max-width: 728px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px;
-  }
-  /* portfolio */
-  div.work{
-    width: 313px;
-    margin-bottom: 10px;
-  }
-
-}
-
-@media screen and (max-width: 640px){
-
-}
-
-
-
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -299,3 +238,107 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* responive settings */
+
+@media screen and (max-width: 980px){
+  body {
+    font-weight: bold;
+  }
+  /* general */
+  section.sidebar{
+    margin-right: 120px;
+  }
+  #logo{
+    margin-left: 120px;
+  }
+  nav{
+    margin-right: 120px;
+  }
+    section.main-section {
+    width: 415px;
+    margin-left: 120px;
+  /* about */
+  }
+  img.auth-image {
+    width: 355px;
+    margin-bottom: 20px;
+  }
+  /* portfolio */
+  div.work {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  body {
+    font-weight: bold;
+  }
+  /* general */
+  #logo {
+    margin-left: 20px;
+  }
+  nav {
+    margin-right: 20px;
+  }
+  section.main-section {
+    width: 100%;
+    max-width: 728px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.sidebar {
+    width: 100%;
+    max-width: 728px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  /* portfolio */
+  div.work{
+    width: 313px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 640px){
+  body {
+    font-weight: bold;
+  }
+  /* general */
+  header#masthead {
+    position: static;
+    margin-bottom: 0;
+  }
+  div#main-container {
+  padding-top: 20px;
+  }
+  a#logo {
+    width: 100%;
+    max-width: 640px;
+    margin-left: 0;
+  }
+  nav {
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  section.main-section {
+    width: 100%;
+    max-width: 600px;
+  }
+  section.sidebar {
+    width: 100%;
+    max-width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  /* about */
+  img.auth-image {
+    width: 538px;
+    margin-bottom: 20px;
+  }
+  div.work {
+    width: 540px;
+  }
+}
